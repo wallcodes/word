@@ -1,0 +1,60 @@
+.login100-form-btn {
+    font-family: Ubuntu-Bold;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 50% !important;
+    margin: 0 auto !important;
+    height: 62px;
+    background-color: #827ffe;
+    border-radius: 3px;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+}
+
+.login100-form {
+    width: 70% !important;
+}
+
+.wrap-login100 {
+    width: 340px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+@media screen and (max-width: 1208px) {
+    .login100-form-title {
+        padding-bottom: 25px !important;
+    }
+    .login100-form {
+        width: 100% !important;
+        display: block !important;
+    }
+    .container-login100 {
+        display: flex !important;
+    }
+    .col-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: fit-content !important;
+    }
+    .wrap-login100 {
+        width: 390px;
+        background: #fff;
+        border-radius: 10px;
+        position: relative;
+        padding-top: 0px !important;
+    }
+}
